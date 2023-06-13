@@ -1,0 +1,181 @@
+// var kuddus = "bangladesh";
+
+// kuddus = "tmi amr jonno kicu niya asba"
+
+// var kuddus = "bangladesh";
+
+// let city = "dhaka";
+
+
+// console.log(kuddus,'\n',city)
+// const  programing_language = "javascript";  
+// programing_language = "cpp"
+// console.log(kuddus,'\n',city,'\n',programing_language)
+
+// name = "ahad"
+// name = "nahid"
+// console.log(name)
+// let ahad ="money"
+// const banker ="money"
+
+// data types
+
+// reguar/primitive base data type
+
+ /*String: "ahad", "a-z"
+Number ; 233432234
+boolean: true, false
+null : undefined "" ''
+symbol: symbol data type
+undifined */
+
+
+// non-primitive data type
+
+
+
+
+
+// let data = "hi-our-2nd-programing-class"
+// let check = false
+// let num = 1324456887
+// let kico ;
+
+// condition
+
+// if , else , else if (keword)
+
+// condition syntex
+// if(condition)
+
+
+// let taka= 500;
+
+// if (taka>500){
+//     console.log('ami jabo na')
+// }else{
+//     console.log('ami khete jabo') 
+// }
+
+// oparator : use mathmatical sin, jake die kaj kori, oparent chara kaj kore na,  
+
+/*
+oparent: jader ke nie kaj korchi 
+
+1. aasignment opoarator: je oparator er sahajje  kono oparant er modhe kono bisoy man ba value nirdharon kora hoy take assingment oparator 
+ a=10, a er value 10 ke assing korce , a=a+10 additional assingment
+= assingment oparator 
++= addition ot
+-= subtraction ot
+*= multiplication ot
+/= division ot
+%= modulus ot
+**= exponentiation ot
+
+2. arithmetic oparator : jei oparator er sahajje kono ganitic calculation kora hoy take bola hoy arithmetic oparator
++ addition
+- subtraction
+* multiplication
+/ division
+% modulus or remainder(bhasess)
+++ increment(briddhi )
+-- decrement(rash kora)
+** power or exponentiation
+
+3. comparison ot: je oparator er sahajje  2 ba totodhik vhalue compair kori take bola hoy comparison oparator
+== equal comparision ot
+!= soman na , not equal
+===
+!==
+< less den
+> gater then
+>= gater then equal
+<=
+4. logical ot : je oparator er sahajje juktigot oparation kori take bola hoy logical oparator
+ebong , othoba , noy
+
+।। or 
+&& and
+! not
+
+5. bitwish ot: je oparator er sahajje binarry oparator
+1 byte ==8bit
+& bitwise and oparator
+। bitwise or oparator
+^ bitwise xor ot
+<< left shift
+>>  right shift ot
+~ not ot
+>>> 
+6. ternary ot
+
+7. other ot
+
+
+./. == remnder or modulas
+*/
+
+
+// data types
+ 
+
+/*
+2 types of data type : premetive, non-premetive
+premetive: je dhoroner data type ek dhoroner data nie kaj kore . ex(int, string)
+non-premetive: je dhoroner data type multiple data nie kaj kore. example(array, object)
+
+number data: 0-9 all, int(purno sonkha), float(dosomik max 4 after), dobule(max many)
+string data: "" , ''
+big intiger:
+
+ boolian: truth, false
+
+ symbol: 
+ object: inside second braket {}
+ array: ekoy dhoroner onekgula data die toiri, somonnoye. (inside third braket [])
+
+ undefine: a;
+ null: value nai, empty,a;
+
+
+intiger: get exact value
+
+
+*/
+// const age = Math.pow(2,99);
+ 
+// console.log(age);
+
+oparator : type // let b = [];
+// console.log(typeof b)
+// function name (){
+// // code block
+// // return
+// }
+
+// const variable = () =>{
+
+// })
+// 
+// ekti if block er moddhe jodi ek ba ekadhik kondition thake ta bole nasted if
+
+// console.log('hello our awesome class');
+
+// loop
+/*
+for(int,condition,increament/decreament){
+
+}
+
+*/
+
+// for(let a=0;a<5; ){
+//     console.log('hello awesome class');
+// }
+let a=0;
+while(a<5){
+   
+    console.log('hello awesome class');
+    a++;
+}
+

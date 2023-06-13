@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0"/>
+    <title>AHAD KHAN</title>
+    <link rel="stylesheet" href="class09.css">
+  </head>
+  <!-- <body>
+<!-- <div>
+    <h1>hello how</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo cum ea dolorem accusantium illo. At voluptates modi saepe optio eius. Aperiam libero velit nesciunt, neque eos eius veniam eum! Culpa.</p>
+</div>
+    <img src="data:image/jpeg;base64,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" alt=""> -->
+<div class="content">
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, alias quaerat dolor laudantium ex temporibus facere. Dolores accusantium soluta itaque quisquam excepturi aliquid temporibus, unde praesentium hic, numquam suscipit maxime.
+    </p>
+</div>
+ <nav>
+    <div class="left">
+    <h1>welcome</h1>
+</div>
+<div class="right">
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>hello</li>
+    </ul>
+</div>
+<div class="clearfix"></div>
+</nav>
+<h2>how are you</h2>
+ <div class="opacity">
+    <h3>hello</h3>
+</div> 
+ <ul>
+    <li>home</li>
+    <li>about</li>
+    <li>hello</li>
+</ul> 
+<div>
+    <h2>welcom Lorem ipsum dolor sit, 
+        amet consectetur adipisicing elit.
+         Nam amet quidem architecto blanditiis
+          veritatis iusto numquam ratione
+           reiciendis, laudantium, dignissimos 
+           sit quisquam, nesciunt commodi. Earum deserunt ducimus minus, reprehenderit corporis nisi ea nobis, rerum beatae distinctio illo voluptatem perferendis dignissimos veritatis. Accusantium consequatur, maiores ipsum aperiam officia excepturi ipsam molestias tempore harum fuga, omnis magni illum doloribus dignissimos animi odio amet soluta deserunt at ratione aliquid magnam, sequi nam. Sit quos ut distinctio accusamus totam accusantium veritatis dicta rem inventore voluptas iste quis ducimus dignissimos beatae minima adipisci officia, sequi nulla ratione blanditiis magni recusandae neque.
+         Ab tempore ipsam magni.</h2>
+</div>
+  </body> 
+  </html>
+
+
+
+  <div class="big-sale">
+    <div class="big-sale-body"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS655LJ7ZKwKuYuDTGVv_wUz-_mRRgNSei44w&s" width="300px" height="400px"/>
+      <div class="p1-text">
+        <div class="p1-title">delacias food for everyone</div>
+        <div class="p1-price">
+          <span class="currency">৳</span><span class="price">90</span>
+        </div>
+        <div class="p1-origin-price">
+          <span class="origin-price">
+            <span class="currency">৳</span><span class="price">180</span>
+          </span>
+          <span class="p1-discount">
+           -50%
+          </span>
+        </div>
+
+
+    </div>
+
+
+
+
+     <!-- <abbr  href="https://www.facebook.com/profile.php?id=100079687211211&mibextid=ZbWKwL" target="_blank"> <b>facebook</b></abbr> -->
+         <!-- <div class="fs-card-sold">
+        
+        </div> -->
+
+      <!-- <div class="card-fs-content-header J_FSHeader" data-count-down-bg-color="#ff6801" data-spm-anchor-id="a2a0e.home.flashSale.i0.530112f7IFm9XD">
+      <div class="card-fs-content-header-left J_FSHeaderLeft">
+        <div class="card-fs-content-header-left-status pull-left">
+          <div class="fs-status-text" style="color: undefined">On Sale Now</div>
+        </div>
+        <div class="card-fs-content-header-left-timer pull-left">
+          <div class="fs-timer-text pull-left" style="color: undefined">Ending in</div>
+          <div class="fs-timer-count pull-left" id="hours" style="background-color: #ff6801; color: undefined;">10</div>
+          <div class="fs-timer-colon pull-left" style="color: #ff6801"> : </div>
+          <div class="fs-timer-count pull-left" id="minutes" style="background-color: #ff6801; color: undefined;">31</div>
+          <div class="fs-timer-colon pull-left" style="color: #ff6801"> : </div>
+          <div class="fs-timer-count pull-left" id="seconds" style="background-color: #ff6801; color: undefined;">04</div>
+        </div>
+      </div>
+    
+        <a class="card-fs-content-button J_ShopMoreBtn" title="FlashSale" style="color: #f57224; border-color: #f57224" href="//www.daraz.com.bd/wow/i/bd/landingpage/flash-sale?spm=a2a0e.home.flashSale.1.530112f7IFm9XD&amp;wh_weex=true&amp;amp;wx_navbar_transparent=true&amp;amp;scm=1003.4.icms-zebra-100031732-2896540.OTHER_5530854870_2643759&amp;skuIds=114276171,173658042,205721377,183213713,277452818,250151358,245262940" data-spm-anchor-id="a2a0e.home.flashSale.1">SHOP MORE</a>
+      </div>
+      <div class="card-fs-content-body J_FSBody" title="FlashSale">
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      <a href="//www.daraz.com.bd/products/2-3-led-ups-ips-ats-i114276171-s1031812552.html?spm=a2a0e.home.flashSale.2.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.2">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Mini Digital Voltmeter Voltage Meter Panel Volt Tester Detector Monitor 2 Wire 3 Bit Red LED tube for UPS IPS Battery Tester ATS etc" src="https://static-01.daraz.com.bd/p/7ea564a911105f25f75b0ba989f495d3.jpg">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Mini Digital Voltmeter Voltage Meter Panel Volt Tester Detector Monitor 2 Wire 3 Bit Red LED tube for UPS IPS Battery Tester ATS etc</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">90</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">180</span>
+            </span>
+            <span class="fs-discount">
+             -50%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    
+      <a href="//www.daraz.com.bd/products/wsd01601-walton-16gb-10u1-sdhc-i173658042-s1110270583.html?spm=a2a0e.home.flashSale.3.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.3">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Walton 16GB Class 10/U1 Micro SDHC Memory Card with Adapter Model WSD01601" src="https://static-01.daraz.com.bd/p/fa8d8ded8591cd2882cdbf75bc4c182d.jpg">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Walton 16GB Class 10/U1 Micro SDHC Memory Card with Adapter Model WSD01601</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">296</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">435</span>
+            </span>
+            <span class="fs-discount">
+             -31%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    
+      <a href="//www.daraz.com.bd/products/warm-white-snow-ball-fairy-lights-waterproof-decorative-fairy-lights-28-pieces-set-mhn-i205721377-s1154118740.html?spm=a2a0e.home.flashSale.4.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.4">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Warm White snow Ball Fairy Lights, Waterproof Decorative Fairy Lights 28 pieces set-MHN" src="https://static-01.daraz.com.bd/p/9db28967e6c1fa35be4db37706775547.jpg" data-spm-anchor-id="a2a0e.home.flashSale.i1.530112f7IFm9XD">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Warm White snow Ball Fairy Lights, Waterproof Decorative Fairy Lights 28 pieces set-MHN</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">187</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">286</span>
+            </span>
+            <span class="fs-discount">
+             -34%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    
+      <a href="//www.daraz.com.bd/products/auoyo-mini-wall-bedroom-nightlight-i183213713-s1203781866.html?spm=a2a0e.home.flashSale.5.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.5">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Ayan Auto On/Off Mini Wall LED Night Light Bedroom Nightlight" src="https://static-01.daraz.com.bd/p/1bb3a113153ce7c8f5bed2574b42d321.jpg">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Ayan Auto On/Off Mini Wall LED Night Light Bedroom Nightlight</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">134</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">220</span>
+            </span>
+            <span class="fs-discount">
+             -39%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    
+      <a href="//www.daraz.com.bd/products/e27-i277452818-s1257935317.html?spm=a2a0e.home.flashSale.6.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.6">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Modern Chandelier Nordic Mount Ceiling Lamp Brushed Antique Gold Home Decor E27 Base Ceiling  ChandeliersLighting Fixture" src="https://static-01.daraz.com.bd/p/24611d13f5dc6a0b4a214e70ab24b9f3.jpg">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Modern Chandelier Nordic Mount Ceiling Lamp Brushed Antique Gold Home Decor E27 Base Ceiling  ChandeliersLighting Fixture</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">2279</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">4925</span>
+            </span>
+            <span class="fs-discount">
+             -53%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    
+      <a href="//www.daraz.com.bd/products/usb-i250151358-s1196594857.html?spm=a2a0e.home.flashSale.7.530112f7IFm9XD" class="card-fs-content-body-unit hp-mod-card-hover J_FSItemUnit" data-spm-anchor-id="a2a0e.home.flashSale.7">
+        <div class="fs-card-img-container">
+          <img class="fs-card-img" alt="Foldable USB Rechargeable Hanging Neck Fan/ Portable Handheld Student Dormitory Sports Outdoor Mini Fans" src="https://static-01.daraz.com.bd/p/a0e513862770558148636a4074b6c2dc.jpg">
+        </div>
+        
+        <div class="fs-card-text">
+          <div class="fs-card-title">Foldable USB Rechargeable Hanging Neck Fan/ Portable Handheld Student Dormitory Sports Outdoor Mini Fans</div>
+          <div class="fs-card-price">
+            <span class="currency">৳</span><span class="price">410</span>
+          </div>
+          <div class="fs-card-origin-price">
+            <span class="fs-origin-price">
+              <span class="currency">৳</span><span class="price">782</span>
+            </span>
+            <span class="fs-discount">
+             -47%
+            </span>
+          </div>
+          <div class="fs-card-sold">
+          
+          </div>
+        </div>
+      </a>
+    </div>
+    </div> -->

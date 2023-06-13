@@ -1,0 +1,85 @@
+.king{
+    width: 1400px;
+    height: 400px;
+    background: rgb(61, 247, 5);
+    margin-bottom: 20px;
+    display: inline-block;
+ text-align: center;
+    /* border-radius: 50%; */
+}
+header{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid orange; 
+    width:1400px;
+    height: 20px;
+    background: rgb(4, 248, 106);
+    text-align: center;
+}
+.ahad{
+    width:300px;
+    height: 300px;
+    background: red;
+    display: inline-block;
+}
+a{
+display: inline-block;
+    background-color: rgb(9, 45, 250);
+    color: black;
+    margin: 15px;
+    /* border: 1px solid orange; */
+    /* padding-left:800px;
+    padding-top:20px;
+    padding-right:800px;
+    padding-bottom:20px; */
+    /* text-align: center; */
+}
+a:visited{
+    color: brown;
+}
+ a:active{
+color: darkblue;
+}
+H3{
+    border: 1px solid orange; 
+    width:1400px;
+    height: 20px;
+    background: rgb(4, 248, 106);
+    text-align: center;
+}
+#sder{
+    border: 1px solid rgb(12, 12, 12); 
+    display:inline-block;
+    width: 1400px;
+    height: 400px;
+    background: rgb(8, 8, 8);
+    color: aliceblue;
+}
+address{
+    border: 1px solid orange; 
+    background-color: black;
+    color: rgb(250, 252, 253);  
+}
+
+a{
+    background-color: rgb(5, 1, 8);
+    color: rgb(250, 244, 244);
+    padding: 10px 24px
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgb(252, 253, 253);
+}
+a:visited{
+    color: rgb(8, 240, 59);
+}
+ a:active{
+color: rgb(8, 8, 8);
+}
+.headline{
+
+}
+.sc{
+    
+}

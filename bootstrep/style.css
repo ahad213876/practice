@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+
+}
+a{
+    text-decoration: none;
+
+}
+.top-bar{
+    width: 100%;
+    transition: 0.3s all ease;
+    overflow: hidden;
+    height: 40px;
+    font-size: 11px;
+    background: linear-gradient(90deg, rgba(180,212,214,1) 0%, rgba(219,225,228,1) 100%);
+}
+.top-bar .top-bar-items{
+    width: 21%;
+}
+   
+.top-bar a i{
+   
+    font-weight: 1000;
+    font-size: 18px;
+  
+    line-height: 13px;
+    color: #231a23;
+  
+}
+.top-bar a{
+    margin-right: 20px;
+    color: #231a23;
+    font-family: 'inter', sans-serif;
+    font-weight: 1000;
+    font-size: 13px;
+}
+
+
+
+
